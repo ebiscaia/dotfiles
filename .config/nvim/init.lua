@@ -41,6 +41,7 @@ vim.pack.add({
     { src = "https://github.com./Pocco81/DAPInstall.nvim" },
     { src = "https://github.com/ahmedkhalf/project.nvim" },
 })
+require("eddie.options")
 
 -- plugin setup
 -- UI
