@@ -33,6 +33,7 @@ vim.pack.add({
     { src = "https://github.com/ahmedkhalf/project.nvim" },
 })
 require("eddie.options")
+require("eddie.keybindings")
 
 -- plugin setup
 -- UI
