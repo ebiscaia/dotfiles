@@ -3,14 +3,6 @@ require("eddie.keybindings")
 require("eddie.packages")
 require("eddie.icons")
 require("eddie.colorscheme")
--- indent-blankline
-require("ibl").setup({
-    scope = {
-        enabled = true,
-        highlight = { "Identifier" },
-    },
-    indent = { char = "│" },
-})
 
 -- lualine | status line
 require("lualine").setup({
