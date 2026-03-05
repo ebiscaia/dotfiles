@@ -1,5 +1,6 @@
 require("eddie.options")
 require("eddie.keybindings")
+require("eddie.packages")
 
 -- plugin setup
 -- UI
