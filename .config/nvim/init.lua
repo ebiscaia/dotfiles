@@ -2,6 +2,7 @@ require("eddie.options")
 require("eddie.keybindings")
 require("eddie.packages")
 require("eddie.icons")
+require("eddie.colorscheme")
 
 -- indent-blankline
 require("ibl").setup({
