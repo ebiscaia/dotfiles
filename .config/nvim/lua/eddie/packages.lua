@@ -1,0 +1,35 @@
+-- Packages
+vim.pack.add({
+    -- first dependencies for other packages
+    { src = "https://github.com/rafamadriz/friendly-snippets" },
+    --    { src = "https://github.com/nvim-tree/nvim-web-devicons" },
+    { src = "https://github.com/nvim-mini/mini.icons" },
+    { src = "http://github.com/nvim-lua/plenary.nvim" },
+    { src = "https://github.com./nvim-neotest/nvim-nio" },
+
+    -- main packages
+    { src = "https://github.com/ellisonleao/gruvbox.nvim" },
+    { src = "https://github.com/m4xshen/autoclose.nvim" },
+    { src = "https://github.com/akinsho/toggleterm.nvim" },
+    { src = "https://github.com/neovim/nvim-lspconfig" },
+    { src = "https://github.com/Saghen/blink.cmp" },
+    { src = "https://github.com/mason-org/mason.nvim" },
+    { src = "https://github.com/mason-org/mason-lspconfig.nvim" },
+    { src = "https://github.com/L3MON4D3/LuaSnip" },
+    { src = "https://github.com/nvim-lualine/lualine.nvim" },
+    { src = "https://github.com/stevearc/conform.nvim" },
+    { src = "https://github.com/mfussenegger/nvim-lint" },
+    { src = "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim" },
+    { src = "https://github.com/lukas-reineke/indent-blankline.nvim" },
+    { src = "https://github.com/nvim-treesitter/nvim-treesitter" },
+    { src = "https://github.com/lewis6991/gitsigns.nvim" },
+    { src = "https://github.com/akinsho/git-conflict.nvim" },
+    { src = "https://github.com/TimUntersberger/neogit" },
+    { src = "https://github.com/sindrets/diffview.nvim" },
+    { src = "https://github.com/ibhagwan/fzf-lua" },
+    { src = "https://github.com./mfussenegger/nvim-dap" },
+    { src = "https://github.com./rcarriga/nvim-dap-ui" },
+    { src = "https://github.com./theHamsta/nvim-dap-virtual-text" },
+    { src = "https://github.com./Pocco81/DAPInstall.nvim" },
+    { src = "https://github.com/ahmedkhalf/project.nvim" },
+})
