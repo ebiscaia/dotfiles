@@ -3,9 +3,6 @@ require("eddie.keybindings")
 require("eddie.packages")
 require("eddie.icons")
 
--- plugin setup
--- UI
--- set colorscheme
 require("gruvbox").setup({
     overrides = {
         ["@string"] = { fg = "#bdae93", italic = true },
