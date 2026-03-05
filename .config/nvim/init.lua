@@ -3,6 +3,7 @@ require("eddie.keybindings")
 require("eddie.packages")
 require("eddie.icons")
 require("eddie.colorscheme")
+require("eddie.indentline")
 
 -- lualine | status line
 require("lualine").setup({
