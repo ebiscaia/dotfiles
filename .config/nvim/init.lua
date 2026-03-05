@@ -3,21 +3,6 @@ require("eddie.keybindings")
 require("eddie.packages")
 require("eddie.icons")
 
-require("gruvbox").setup({
-    overrides = {
-        ["@string"] = { fg = "#bdae93", italic = true },
-        Pmenu = { link = "Normal" },
-        NormalFloat = { link = "Normal" },
-        NormalNC = { bg = "#32302f" },
-        GitSignsAdd = { fg = "#83a598" },
-        GitSignsChange = { fg = "#fabd2f" },
-    },
-    dim_inactive = true,
-    transparent_mode = true,
-})
-
-vim.cmd("colorscheme gruvbox")
-
 -- indent-blankline
 require("ibl").setup({
     scope = {
